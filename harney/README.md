@@ -12,4 +12,4 @@ When pyMETRIC is downloaded or cloned, the only contents of this directory will 
 ## study_area
 This file contains a shapefile (Esri vector data storage format) the delineates the study area where ET estimates are to be calculated.  This shapefile will used to subset support data and limit processing only to the areas where data is desired.  In this example, the shapefile was derived from the USGS National Hydrography Dataset (WBDHU8) for a hydrographic basin in the area of the Harney, Oregon.
 
-![Alt text](../docs/harney_shapefile.png?raw=true "Harney Basin, Oregon")
+![Alt text](../docs/images/harney_shapefile.png?raw=true "Harney Basin, Oregon")
