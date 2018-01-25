@@ -78,27 +78,19 @@ setx PYTHONPATH "D:\pyMETRIC\code\support;%PYTHONPATH%"
 
 #### GDAL_DATA
 
-In order to execute pyMETRIC code, the GDAL_DATA environmental variable may need to be set (*example*: GDAL_DATA = C:\Anaconda3\Library\share\gdal).
+In order to execute pyMETRIC code, the GDAL_DATA environmental variable may need to be set (*example*: GDAL_DATA = C:\Anaconda3\Library\share\gdal). **Depending on your specific installation of Python on pyMETRIC, you file path for GDAL_DATA may be different**
 
-#### Windows
 
-On a Windows PC, the user environment variables can be set through the Control Panel (System -> Advanced system settings -> Environment Variables).  Assuming that pyMETRIC was cloned/installed directly to the D: drive, the PYTHONPATH value would be:
+On a Windows PC, the user environment variables can be set through the Control Panel (System -> Advanced system settings -> Environment Variables).  Assuming that pyMETRIC was cloned/installed directly to the D: drive and Python 3 is used, the GDAL_DATA environmental variable may be set as:
 ```
-D:\pyMETRIC\code\support
-```
-
-The environment variable can also be set at the command line.  First check if PYTHONPATH is already set by typing:
-```
-echo %PYTHONPATH%
-```
-If PYTHONPATH is not set, type the following in the command prompt:
-```
-> setx PYTHONPATH "D:\pyMETRIC\code\support"
-```
-To append to an existing PYTHONPATH, type:
-```
-setx PYTHONPATH "D:\pyMETRIC\code\support;%PYTHONPATH%"
+C:\Anaconda3\Library\share\gdal
 ```
 
-#### LINUX / Mac
-
+This environment variable can also be set at the command line.  First check if GDAL_DATA is already set by typing:
+```
+echo %GDAL_DATA%
+```
+If GDAL_DATA is not set, type the following in the command prompt:
+```
+> setx GDAL_DATA "C:\Anaconda3\Library\share\gdal" 
+```
