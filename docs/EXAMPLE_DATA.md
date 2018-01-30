@@ -211,8 +211,17 @@ D:\pyMETRIC>python code\gridmet\gridmet_daily_ppt.py --start 2014-10-01 --end 20
 D:\pyMETRIC>python code\nldas\nldas_ancillary.py
 ```
 
-In order to download the NLDAS hourly data, you will need to create an [Earthdata login](https://urs.earthdata.nasa.gov/)
+In order to download the NLDAS hourly data, you will need to create an [Earthdata login](https://urs.earthdata.nasa.gov/).  Once your account is created with Earthdata, data access to Goddard Earth Sciences Data and Information Services Center (GES DISC) must be enabled for your account.  To approve access:
+1. [Navigate to your Earthdata profile page](https://urs.earthdata.nasa.gov/)
+2. Select "My Applications"
+3. Click the "APPROVE MORE APPLICATIONS" button
+4. Approve "NASA GESDISC DATA ARCHIVE"
 
+**(For descriptive instructions, please visit: [https://disc.gsfc.nasa.gov/earthdata-login](https://disc.gsfc.nasa.gov/earthdata-login))**
+
+
+For comprehensive instructions, please follow the instructions provided at https://disc.gsfc.nasa.gov/earthdata-login
+ 
 Begin downloading the NLDAS hourly GRB files.  All of the NLDAS variables for a single hour are stored in a single GRB file.  The "--landsat" parameter is set in order to limit the download to only those dates and times that are needed for the Landsat images in the study area and time period.  If you don't specify the "--landsat" parameter, the script will attempt to download all hourly data within the "--start" and "--end" range.
 ```
 D:\pyMETRIC>python code\nldas\nldas_download.py <USERNAME> <PASSWORD> --start 2015-01-01 --end 2015-12-31  --landsat .\landsat
