@@ -219,8 +219,6 @@ In order to download the NLDAS hourly data, you will need to create an [Earthdat
 
 **(For descriptive instructions, please visit: [https://disc.gsfc.nasa.gov/earthdata-login](https://disc.gsfc.nasa.gov/earthdata-login))**
 
-
-For comprehensive instructions, please follow the instructions provided at https://disc.gsfc.nasa.gov/earthdata-login
  
 Begin downloading the NLDAS hourly GRB files.  All of the NLDAS variables for a single hour are stored in a single GRB file.  The "--landsat" parameter is set in order to limit the download to only those dates and times that are needed for the Landsat images in the study area and time period.  If you don't specify the "--landsat" parameter, the script will attempt to download all hourly data within the "--start" and "--end" range.
 ```
