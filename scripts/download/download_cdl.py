@@ -11,7 +11,7 @@ import os
 import sys
 import zipfile
 
-from python_common import ftp_download
+from scripts.support.python_common import ftp_download
 
 
 def main(year, output_folder, overwrite_flag=False):
@@ -84,9 +84,9 @@ def arg_parse():
 
 
 if __name__ == '__main__':
-    args = arg_parse()
+    # args = arg_parse()
 
-    logging.basicConfig(level=args.loglevel, format='%(message)s')
+    # logging.basicConfig(level=args.loglevel, format='%(message)s')
     logging.info('\n{}'.format('#' * 80))
     log_f = '{:<20s} {}'
     logging.info(log_f.format('Run Time Stamp:', dt.datetime.now().isoformat(' ')))

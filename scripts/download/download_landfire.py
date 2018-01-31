@@ -12,7 +12,7 @@ import shutil
 import sys
 import zipfile
 
-from python_common import url_download
+from scripts.support.python_common import url_download
 
 
 def main(output_folder, version='140', overwrite_flag=False):
@@ -129,5 +129,13 @@ if __name__ == '__main__':
     logging.info(log_f.format('Run Time Stamp:', dt.datetime.now().isoformat(' ')))
     logging.info(log_f.format('Script:', os.path.basename(sys.argv[0])))
 
-    main(output_folder=args.output, version=args.version,
-        overwrite_flag=args.overwrite)
+    home = os.path.expanduser('~')
+    lolo = os.path.join(home, 'images', 'lolo')
+    out = os.path.join(lolo, 'landfire')
+    anc = os.path.join(lolo, 'nldas')
+    landsat = os.path.join(lolo, 'landsat')
+    shapefile = os.path.join(lolo, 'extent', 'Missoula_County.shp')
+    start = '2016-01-01'
+    end = '2016-12-31'
+
+    main(output_folder=out)
