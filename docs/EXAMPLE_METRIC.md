@@ -1,7 +1,7 @@
 Quicklinks: [Data Preparation](EXAMPLE_DATA.md) --- [Project Setup](EXAMPLE_SETUP.md) --- [Running METRIC](EXAMPLE_METRIC.md)
 
 # Running METRIC
-The following scripts should be ran in the following sequence in order to produce ET estimates.  These scripts are all located in the ["code/local/"](/code/local) directory.
+The following scripts should be ran in the following sequence in order to produce ET estimates.  These scripts are all located in the ["code/local/"](/scripts/local) directory.
 
 ### landsat_prep_ini.py
 Prepare Landsat path/row data and populates input files to be used later in the PyMETRIC process.
