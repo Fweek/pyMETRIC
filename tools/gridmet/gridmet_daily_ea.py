@@ -15,9 +15,9 @@ import netCDF4
 import numpy as np
 from osgeo import gdal
 
-import gdal_common as gdc
-import et_common
-from python_common import date_range, valid_date
+from tools.support import gdal_common as gdc
+from tools.support import et_common
+from tools.support.python_common import date_range, valid_date
 
 np.seterr(invalid='ignore')
 

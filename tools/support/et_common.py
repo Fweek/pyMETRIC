@@ -17,7 +17,7 @@ import numpy as np
 # Used by soil water balance point_swb_func
 from osgeo import gdal, ogr, osr
 
-import gdal_common as gdc
+from tools.support import gdal_common as gdc
 import python_common
 
 

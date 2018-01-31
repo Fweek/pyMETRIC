@@ -14,8 +14,8 @@ import sys
 import numpy as np
 from osgeo import gdal
 
-import gdal_common as gdc
-from python_common import date_range, valid_date
+from tools.support import gdal_common as gdc
+from tools.support.python_common import date_range, valid_date
 
 
 def main(cimis_ws=os.getcwd(), gridmet_ws=None, ancillary_ws=os.getcwd(),

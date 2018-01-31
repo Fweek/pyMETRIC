@@ -13,7 +13,7 @@ import sys
 
 import requests
 
-from python_common import date_range, valid_date
+from tools.support.python_common import date_range, valid_date
 
 class BadCredentialsException(BaseException):
     pass

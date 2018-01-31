@@ -16,9 +16,9 @@ import numpy as np
 from osgeo import gdal
 from scipy import ndimage
 
-import gdal_common as gdc
-import et_common
-from python_common import valid_date
+from tools.support import gdal_common as gdc
+from tools.support import et_common
+from tools.support.python_common import valid_date
 
 
 def main(img_ws=os.getcwd(), ancillary_ws=os.getcwd(), output_ws=os.getcwd(),

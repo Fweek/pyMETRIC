@@ -19,10 +19,10 @@ import numpy as np
 from scipy import ndimage
 from osgeo import gdal
 
-import et_common
+from tools.support import et_common
 import et_image
 import et_numpy
-import gdal_common as gdc
+from tools.support import gdal_common as gdc
 import python_common
 
 

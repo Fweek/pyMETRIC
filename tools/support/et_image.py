@@ -16,8 +16,8 @@ import sys
 from osgeo import gdal, ogr, osr
 import numpy as np
 
-import et_common
-import gdal_common as gdc
+from tools.support import et_common
+from tools.support import gdal_common as gdc
 
 
 class InvalidImage(Exception):

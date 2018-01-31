@@ -20,9 +20,9 @@ import matplotlib.pyplot as plt
 import numpy as np
 from scipy import stats
 
-import gdal_common as gdc
-import et_common
-from python_common import remove_file
+from tools.support import gdal_common as gdc
+from tools.support import et_common
+from tools.support.python_common import remove_file
 
 break_line = '\n{}'.format('#' * 80)
 pixel_str_fmt = '    {:<12s}{:>14s}  {:>14s}'

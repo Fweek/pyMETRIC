@@ -12,7 +12,7 @@ import shutil
 import sys
 import zipfile
 
-from python_common import url_download
+from tools.support.python_common import url_download
 
 
 def main(output_folder, version='140', overwrite_flag=False):

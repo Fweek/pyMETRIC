@@ -15,8 +15,8 @@ import zipfile
 
 from osgeo import ogr
 
-import gdal_common as gdc
-from python_common import ftp_download
+from tools.support from tools.support import gdal_common as gdc
+from tools.support.python_common import ftp_download
 
 
 

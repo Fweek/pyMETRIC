@@ -16,8 +16,8 @@ import zipfile
 
 import numpy as np
 
-import gdal_common as gdc
-from python_common import url_download
+from tools.support import gdal_common as gdc
+from tools.support.python_common import url_download
 
 
 def main(ancillary_ws=os.getcwd(), overwrite_flag=False):

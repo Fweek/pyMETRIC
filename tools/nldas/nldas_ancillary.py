@@ -15,8 +15,8 @@ import sys
 import numpy as np
 import pandas as pd
 
-import gdal_common as gdc
-from python_common import url_download
+from tools.support import gdal_common as gdc
+from tools.support.python_common import url_download
 
 
 def main(ancillary_ws=os.getcwd(), zero_elev_nodata_flag=False,

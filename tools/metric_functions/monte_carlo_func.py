@@ -20,9 +20,9 @@ import pixel_points_func as pixel_points
 import metric_model2_func as metric_model2
 import auto_calibration_func as auto_calibration
 
-import gdal_common as gdc
+from tools.support import gdal_common as gdc
 import et_image
-from python_common import open_ini, read_param
+from tools.support.python_common import open_ini, read_param
 
 break_line = '\n{}'.format('#' * 80)
 pixel_str_fmt = '    {:<14s}  {:>14s}  {:>14s}'

@@ -11,7 +11,7 @@ import os
 import sys
 import zipfile
 
-from python_common import url_download
+from tools.support.python_common import url_download
 
 
 def main(output_folder, overwrite_flag=False):

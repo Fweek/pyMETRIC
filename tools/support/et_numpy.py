@@ -9,7 +9,7 @@ import math
 
 import numpy as np
 
-import et_common
+from tools.support import et_common
 
 
 def cos_theta_spatial_func(time, doy, dr, lon, lat):

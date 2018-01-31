@@ -13,7 +13,7 @@ import sys
 
 import requests
 
-from python_common import date_range, valid_date, url_download
+from tools.support.python_common import date_range, valid_date, url_download
 
 
 def main(output_ws=os.getcwd(), variables=['all'],

@@ -35,10 +35,10 @@ from numpy import ctypeslib
 from osgeo import gdal, ogr, osr
 import pandas as pd
 
-import et_common
-import gdal_common as gdc
+from tools.support import et_common
+from tools.support import gdal_common as gdc
 import interpolate_support as interp
-from python_common import open_ini, read_param, parse_int_set
+from tools.support.python_common import open_ini, read_param, parse_int_set
 
 np.seterr(invalid='ignore')
 # gdal.UseExceptions()

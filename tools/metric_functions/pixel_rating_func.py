@@ -18,9 +18,9 @@ import numpy as np
 from osgeo import gdal, ogr, osr
 from scipy import stats, ndimage
 
-import gdal_common as gdc
+from tools.support import gdal_common as gdc
 import et_image
-from python_common import open_ini, read_param, remove_file
+from tools.support.python_common import open_ini, read_param, remove_file
 
 
 def pixel_rating(image_ws, ini_path, stats_flag=False, overwrite_flag=None):

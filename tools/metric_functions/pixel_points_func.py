@@ -16,7 +16,7 @@ import numpy as np
 from osgeo import gdal, ogr, osr
 from scipy import ndimage
 
-import gdal_common as gdc
+from tools.support import gdal_common as gdc
 import et_image
 import python_common
 

@@ -17,9 +17,9 @@ import numpy as np
 from osgeo import gdal, ogr
 from scipy import interpolate
 
-import gdal_common as gdc
-import et_common
-from python_common import shuffle
+from tools.support import gdal_common as gdc
+from tools.support import et_common
+from tools.support.python_common import shuffle
 
 # np.seterr(invalid='ignore')
 gdal.UseExceptions()

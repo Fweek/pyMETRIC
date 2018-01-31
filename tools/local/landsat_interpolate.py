@@ -13,7 +13,7 @@ import os
 import subprocess
 import sys
 
-from python_common import open_ini, read_param, parse_int_set
+from tools.support.python_common import open_ini, read_param, parse_int_set
 
 
 def main(ini_path, rasters_flag=None, tables_flag=None,

@@ -14,7 +14,7 @@ import re
 import subprocess
 import sys
 
-from python_common import open_ini, read_param, call_mp
+from tools.support.python_common import open_ini, read_param, call_mp
 
 
 def main(ini_path, tile_list=None, groupsize=1, blocksize=2046,

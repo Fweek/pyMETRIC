@@ -20,9 +20,9 @@ import sys
 import numpy as np
 from osgeo import gdal, ogr, osr
 
-import et_common
+from tools.support import et_common
 import et_image
-import gdal_common as gdc
+from tools.support import gdal_common as gdc
 import python_common
 
 gdal.UseExceptions()

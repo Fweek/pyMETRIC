@@ -10,7 +10,7 @@ import logging
 import os
 import sys
 
-from python_common import date_range, valid_date, url_download
+from tools.support.python_common import date_range, valid_date, url_download
 
 
 def main(netcdf_ws=os.getcwd(), variables=['all'],

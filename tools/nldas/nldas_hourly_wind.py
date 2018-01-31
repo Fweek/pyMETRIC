@@ -14,8 +14,8 @@ import sys
 import numpy as np
 from osgeo import gdal
 
-import gdal_common as gdc
-from python_common import parse_int_set, valid_date
+from tools.support import gdal_common as gdc
+from tools.support.python_common import parse_int_set, valid_date
 
 # np.seterr(invalid='ignore')
 

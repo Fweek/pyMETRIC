@@ -14,7 +14,7 @@ import re
 import subprocess
 import sys
 
-from python_common import open_ini, read_param, call_mp, parse_int_set
+from tools.support.python_common import open_ini, read_param, call_mp, parse_int_set
 
 
 def main(ini_path, mc_iter_str='', tile_list=None,

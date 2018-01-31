@@ -19,11 +19,11 @@ from time import sleep
 import numpy as np
 from osgeo import gdal
 
-import gdal_common as gdc
-import et_common
+from tools.support import gdal_common as gdc
+from tools.support import et_common
 import et_image
 import et_numpy
-from python_common import open_ini, read_param, remove_file
+from tools.support.python_common import open_ini, read_param, remove_file
 
 
 def metric_model1(image_ws, ini_path, stats_flag=None, overwrite_flag=None):

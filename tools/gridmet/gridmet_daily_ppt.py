@@ -16,8 +16,8 @@ import numpy as np
 # import numpy.ma as ma
 from osgeo import gdal
 
-import gdal_common as gdc
-from python_common import date_range, valid_date
+from tools.support import gdal_common as gdc
+from tools.support.python_common import date_range, valid_date
 
 
 def main(netcdf_ws=os.getcwd(), ancillary_ws=os.getcwd(),

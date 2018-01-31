@@ -14,8 +14,8 @@ import sys
 
 import numpy as np
 
-import gdal_common as gdc
-from python_common import valid_date
+from tools.support import gdal_common as gdc
+from tools.support.python_common import valid_date
 
 
 def main(input_ws=os.getcwd(), output_ws=os.getcwd(),

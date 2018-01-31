@@ -16,7 +16,7 @@ import sys
 
 from osgeo import ogr
 
-import gdal_common as gdc
+from tools.support import gdal_common as gdc
 import python_common
 
 
