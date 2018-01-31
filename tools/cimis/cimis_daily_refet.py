@@ -33,7 +33,7 @@ def main(img_ws=os.getcwd(), ancillary_ws=os.getcwd(), output_ws=os.getcwd(),
         output_ws (str): folder of output rasters
         etr_flag (bool): if True, compute alfalfa reference ET (ETr)
         eto_flag (bool): if True, compute grass reference ET (ETo)
-        start_date (str): ISO format date (YYYY-MM-DD)
+        start_date (str): ISO format date (YYYY-MM-DD).
         end_date (str): ISO format date (YYYY-MM-DD)
         extent_path (str): file path defining the output extent
         output_extent (list): decimal degrees values defining output extent
