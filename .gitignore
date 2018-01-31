@@ -17,7 +17,7 @@ __pycache__/
 # Data folders
 /cdl
 /cimis/*/
-/tools/ini_templates
+/code/ini_templates
 /daymet
 /dem/tiles
 /dem/p*r*/
