@@ -157,7 +157,7 @@ def main(username, password, grb_ws=os.getcwd(), landsat_ws=None,
                 if 'Access denied' in r.content:
                     raise BadCredentialsException('Check EarthData credentials.')
                 if r.content.startswith('<!DOCTYPE html>'):
-                    raise BadCredentialsException('Check "NASA GES DISC" is authorized.'
+                    raise BadCredentialsException('Check that "NASA GES DISC" is authorized.'
                                                   'Instructions: https://disc.gsfc.nasa.gov/earthdata-login')
                 for chunk in r.iter_content(chunk_size=1024 * 1024):
                     if chunk:  # filter out keep-alive new chunks
